@@ -1,0 +1,72 @@
+img {
+
+  display: flex;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.marco{
+	margin-left: 5em;
+	margin-right: 5em;
+
+}
+
+.intro{
+	margin-right: 35em;
+	text-align: justify;
+}
+
+.titulo{
+	color: #9F2241;
+;
+}
+
+.filtros{
+
+}
+
+.carrusel{
+	overflow: hidden;
+}
+
+.carrusel .grande{
+	display: flex;
+  	flex-flow: row nowrap;
+  	justify-content: space-between;
+  	transform: translateX(0%);
+  	align-items: center;
+
+}
+
+.boton{
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	color: #fff;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+
+}
+
+.boton:hover{
+	cursor: pointer;
+	transform: scale(1.2, 1.2);
+}
+
+.atras{
+	left: 8%;
+	top: calc(70%);
+}
+
+.adelante{
+	right: 8%;
+	top: calc(70%);
+}
+
+
+
