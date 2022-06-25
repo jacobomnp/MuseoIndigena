@@ -4,8 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Biblioteca Virtuak</title>
-	<link rel="stylesheet" href="css/style.css">
-	<script defer src="js/script.js"></script>
+
+	<!-- Materialize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+    <!-- CSS Estilos -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -38,21 +42,32 @@
 
 		<div class="carrusel">
 			<h2 class="titulo">Publicaciones de los acervos del INPI</h2>
+			<div class="container">
+	        	<div class="row">
+		            <div class="col s12">
+		                <div class="carousel center-align">
+		                    <div class="carousel-item">
+		                        <a href=http://200.57.183.23/cgi-bin/koha/opac-detail.pl?biblionumber=372864><img src="recursos/FOTOS_CARRUSEL/Cacao.png" alt=""></a>
+		                    </div>
 
-			<div class="grande">
-
-				<a href="http://200.57.183.23/cgi-bin/koha/opac-detail.pl?biblionumber=372864" class="img"><img src="recursos/FOTOS_CARRUSEL/Cacao.png" alt="Cacao" ></a>
-
-				<a href="http://200.57.183.23/cgi-bin/koha/opac-detail.pl?biblionumber=372863" class="img"><img src="recursos/FOTOS_CARRUSEL/Pulque.png" alt="Pulque"></a>
-
-				<a href="http://200.57.183.23/cgi-bin/koha/opac-detail.pl?biblionumber=372454" class="img"><img src="recursos/FOTOS_CARRUSEL/Paraiso.png" alt="Paraiso"></a>
-
-			</div>
-
-			<div class="boton atras">&#60</div>
-			<div class="boton adelante">&#62</div>
+		                    <div class="carousel-item">         
+		                        <a href="http://200.57.183.23/cgi-bin/koha/opac-detail.pl?biblionumber=372454"><img src="recursos/fotos_carrusel/paraiso.png" width="400" alt=""></a>
+		                    </div>
+		                    
+		                    <div class="carousel-item">         
+		                        <a href="http://200.57.183.23/cgi-bin/koha/opac-detail.pl?biblionumber=372863"><img src="recursos/fotos_carrusel/pulque.png" width="400" alt=""></a>
+		                    </div>
+		                </div>
+		            </div>
+	        	</div>
+    		</div>
 		</div>
 	</div>
 
+	<!-- Materialize.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JS Main -->
+    <script src="js/script.js"></script>
 </body>
 </html>
