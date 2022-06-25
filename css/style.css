@@ -6,8 +6,8 @@ img {
 }
 
 .marco{
-	margin-left: 5em;
-	margin-right: 5em;
+	margin-left: 150px;
+	margin-right: 150px;
 
 }
 
@@ -18,55 +18,37 @@ img {
 
 .titulo{
 	color: #9F2241;
-;
 }
 
-.filtros{
-
+.carousel {
+    min-height: 500px;
 }
 
-.carrusel{
-	overflow: hidden;
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
 }
 
-.carrusel .grande{
-	display: flex;
-  	flex-flow: row nowrap;
-  	justify-content: space-between;
-  	transform: translateX(0%);
-  	align-items: center;
-
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-.boton{
-	font-size: 30px;
-	width: 70px;
-	height: 70px;
-	line-height: 70px;
-	border-radius: 50%;
-	background-color: rgba(0, 0, 0, 0.7);
-	text-align: center;
-	font-weight: bold;
-	position: absolute;
-	color: #fff;
-	box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-
+.carousel .indicators .indicator-item {
+    border-radius: 0px;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #691a30;
+    position: relative;
+    top: -30px;
 }
-
-.boton:hover{
-	cursor: pointer;
-	transform: scale(1.2, 1.2);
-}
-
-.atras{
-	left: 8%;
-	top: calc(70%);
-}
-
-.adelante{
-	right: 8%;
-	top: calc(70%);
-}
-
-
-
