@@ -1,10 +1,3 @@
-img {
-
-  display: flex;
-  object-fit: cover;
-  object-position: center center;
-}
-
 .marco{
 	margin-left: 150px;
 	margin-right: 150px;
@@ -12,12 +5,27 @@ img {
 }
 
 .intro{
-	margin-right: 35em;
+	/*margin-right: 35em;*/
 	text-align: justify;
 }
 
 .titulo{
 	color: #9F2241;
+    text-align: center;
+}
+
+.libros {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.filtro{
+    width: 20%
+
+}
+
+.buscar {
+    width: 80%;
 }
 
 .carousel {
@@ -57,5 +65,4 @@ img {
     position: relative;
     top: -30px;
 }
-
 
