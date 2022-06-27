@@ -7,6 +7,9 @@
 
 	<!-- Materialize.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Materialize icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   
     <!-- CSS Estilos -->
     <link rel="stylesheet" href="css/style.css">
@@ -30,18 +33,30 @@
 
 		<div class="libros">
 			<div class="filtro">
-				<h2 class="titulo">Filtros</h2>
-
-				<div>
-					Hola
-				</div>
+				<p>Filtros</p>
 			</div>
 
-			<hr size="2" color="black">
+			<div class="buscar">
+				<div class="container section">
+					<div class="row">
+						<div class="input-field col s6">
+							<i class="material-icons prefix">search</i>
+							<input type="text" id="buscar" class="autocomplete">
+							<label for="buscar">Buscar...</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="container" id="resp">
+						
+				</div>
+			</div>
 		</div>
 
+		<hr size="2" color="black">
+
 		<div class="carrusel">
-			<h2 class="titulo">Publicaciones de los acervos del INPI</h2>
+			<h3 class="titulo">Publicaciones de los acervos del INPI</h3>
 			<div class="container">
 	        	<div class="row">
 		            <div class="col s12">
